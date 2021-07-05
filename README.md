@@ -61,3 +61,27 @@ Pela gráfico de distribuição cumulativa, podem ser identificados 5 componente
 Tanto para a distribuição de frequência quanto para a distribuição cumulativa, o número de componentes principais foi escolhido com base na posição (em cada gráfico) em que a inclinação se tornou menos acentuada.
 
 # Gráficos loadings
+
+Após identificar o número de componentes principais, utiliza-se os gráficos de loadings (cargas) para identificar quais são os componentes principais. A identificação foi feita escolhendo a variável de maior importância, isto é, de maior loading para representar o componente de número N. 
+
+Estão expostos abaixo os comandos no RStudio para exibição dos gráficos de loadings para identificação das 5 variáveis principais.
+
+![image](https://user-images.githubusercontent.com/81119854/124505730-8624da00-dda0-11eb-8ccb-616d80358a54.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124505795-a6ed2f80-dda0-11eb-89e5-f6c688a0ca1c.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124505825-b9ffff80-dda0-11eb-810f-03a29860cec7.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124505862-d0a65680-dda0-11eb-9989-3c2ed2d64fe7.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124505896-e61b8080-dda0-11eb-8eeb-2826219c8132.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124505934-f7fd2380-dda0-11eb-8750-45c3a24d42c0.png)
+
+A partir dos gráficos de loading, os componentes principais foram identificados como:
+
+![image](https://user-images.githubusercontent.com/81119854/124506106-575b3380-dda1-11eb-80d7-56b6d75943fb.png)
+
+4 de 5 variáveis identificadas como componentes principais estão localizadas na seção de clivagem (cracking), apenas uma na seção de absorção. Isto pode estar associado ao fato de que a seção de clivagem é a parte que concentra os reatores. Esta é a etapa mais complexa da planta de produção de anidrido acético. 
+
+O resultado está coerente porque para uma maior produção de anidrido acético, busca-se a produção seletiva e a maximização de ceteno, enquanto minimiza-se a formação de outras espécies, tais como água, ácido acético, monóxido de carbono, dióxido de carbonato e hidrocarbonetos.
