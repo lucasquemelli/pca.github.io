@@ -56,5 +56,7 @@ Também foi construído um gráfico de distribuição cumulativa a fim de confir
 ![image](https://user-images.githubusercontent.com/81119854/124503761-95098d80-dd9c-11eb-9ae4-6123f2d32745.png)
 ![image](https://user-images.githubusercontent.com/81119854/124503809-ab174e00-dd9c-11eb-9e9c-18be82a98216.png)
 
+Pela gráfico de distribuição cumulativa, podem ser identificados 5 componentes principais, considerando um valor de 94% da variância total do sistema (reta horizontal). No eixo das abcissas, o número de variáveis está em unidade de medidas (UM ou o mesmo que adimensional). 
 
+Tanto para a distribuição de frequência quanto para a distribuição cumulativa, o número de componentes principais foi escolhido com base na posição (em cada gráfico) em que a inclinação se tornou menos acentuada.
 
