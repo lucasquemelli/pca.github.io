@@ -9,3 +9,9 @@ O resultado da limpeza está presente na Figura 1, na qual está presente a vari
 
 ![image](https://user-images.githubusercontent.com/81119854/124501242-8f5d7900-dd97-11eb-9fbc-c9ec2245c26a.png)
 
+A partir da limpeza anterior de dados, foi feita a identificação dos outliers da corrente de anidrido para a sua, posterior, exclusão. Esta etapa foi realizada utilizando o RStudio. 
+
+A seguir, os comandos para a inserção do DataFrame, para a definição dos limites inferior e superior (que excluem os outliers), o gráfico da corrente de anidrido com sua média e limites e, por fim, o comando de exibição de outliers.
+
+![image](https://user-images.githubusercontent.com/81119854/124501676-62f62c80-dd98-11eb-8bd7-acf7d59e06d9.png)
+
