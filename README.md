@@ -46,3 +46,14 @@ As variáveis PCA_var e PCA_propvarex foram inseridas para serem utilizadas na c
 ![image](https://user-images.githubusercontent.com/81119854/124502930-cf722b00-dd9a-11eb-90a4-a31a00ef11b1.png)
 
 O eixo das abcissas se trata do número N de cada componente principal (cada variável). A partir do gráfico de distribuiçaõ, foi possível determinar que o número de componentes principais é 5. A escolha foi feita traçando uma reta horizontal (no valor da variância igual a 1) no ponto onde a inclinação se torna menos acentuada. Isso significa que quanto maior a variância causada por uma variável em um sistema, mais importante se torna aquela variável para o sistema.
+
+![image](https://user-images.githubusercontent.com/81119854/124503554-347a5080-dd9c-11eb-910a-b28d94f785b3.png)
+![image](https://user-images.githubusercontent.com/81119854/124503628-583d9680-dd9c-11eb-8d4e-4ce034eaadd6.png)
+
+Também foi construído um gráfico de distribuição cumulativa a fim de confirmar se o número de componentes principais também seria 5. O comando para a construção desse gráfico está abaixo:
+
+![image](https://user-images.githubusercontent.com/81119854/124503761-95098d80-dd9c-11eb-9ae4-6123f2d32745.png)
+![image](https://user-images.githubusercontent.com/81119854/124503809-ab174e00-dd9c-11eb-9e9c-18be82a98216.png)
+
+
+
