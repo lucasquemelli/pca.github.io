@@ -60,3 +60,4 @@ Pela gráfico de distribuição cumulativa, podem ser identificados 5 componente
 
 Tanto para a distribuição de frequência quanto para a distribuição cumulativa, o número de componentes principais foi escolhido com base na posição (em cada gráfico) em que a inclinação se tornou menos acentuada.
 
+# Gráficos loadings
