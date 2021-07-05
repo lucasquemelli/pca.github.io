@@ -41,5 +41,7 @@ Para a primeira análise, utilizou-se o comando TRUE - que corresponde à matriz
 
 As variáveis PCA_var e PCA_propvarex foram inseridas para serem utilizadas na construção dos gráficos de distribuição para definição do número de componentes principais. Os comandos dos gráficos de distribuição podem ser vistos abaixo:
 
+![image](https://user-images.githubusercontent.com/81119854/124503067-26780000-dd9b-11eb-94a1-b57fff6cb624.png)
+
 ![image](https://user-images.githubusercontent.com/81119854/124502930-cf722b00-dd9a-11eb-90a4-a31a00ef11b1.png)
 
