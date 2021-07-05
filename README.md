@@ -25,3 +25,16 @@ Pela figura acima, observa-se que não há outliers (porque os identificados for
 
 Procedimento análogo foi realizado com a corrente de ácido acético.
 
+# Identificação e remoção de outliers Mahalanobis
+
+Os comandos para a limpeza Mahalanobis estão abaixo:
+
+![image](https://user-images.githubusercontent.com/81119854/124502345-af8e3780-dd99-11eb-8ff1-f4acd53cf7b6.png)
+
+# Aplicação da PCA
+
+Em seguida, foi inserido um novo DataFrame de nome pca, excluindo a coluna 1 (de horas). A inserção do PCA foi feita pelo comando prcomp. 
+
+Para a primeira análise, utilizou-se o comando TRUE - que corresponde à matriz de correlação. Os comandos podem ser vistos abaixo:
+
+![image](https://user-images.githubusercontent.com/81119854/124502770-73a7a200-dd9a-11eb-9d33-8bade61c3602.png)
