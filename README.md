@@ -93,3 +93,17 @@ A partir dos gráficos de loading, os componentes principais foram identificados
 4 de 5 variáveis identificadas como componentes principais estão localizadas na seção de clivagem (cracking), apenas uma na seção de absorção. Isto pode estar associado ao fato de que a seção de clivagem é a parte que concentra os reatores. Esta é a etapa mais complexa da planta de produção de anidrido acético. 
 
 O resultado está coerente porque para uma maior produção de anidrido acético, busca-se a produção seletiva e a maximização de ceteno, enquanto minimiza-se a formação de outras espécies, tais como água, ácido acético, monóxido de carbono, dióxido de carbonato e hidrocarbonetos.
+
+# Gráfico biplot
+
+Determinados os componentes principais, foi construído um gráfico do tipo biplot para analisar a relação entre as variáveis principis. O comando e o gráfico podem ser vistos abaixo:
+
+![image](https://user-images.githubusercontent.com/81119854/124506601-61316680-dda2-11eb-8987-1773586fe31f.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124506626-70181900-dda2-11eb-952f-82ce2006e92d.png)
+
+Pela gráfico acima, é difícil a visualização de quais as variáveis que mais influenciam a PC1. Contudo, pode ser destacada a FC0619 (vazão de anidrido – produto). Essa influência não é possível na prática, porque a vazão de anidrido é a última variável do processo, não podendo influenciar nenhuma das outras. 
+
+As variáveis que mais influenciam PC2 são TC0508 (temperatura na saída do trocador 1), FI0446 (PC2), TI0210 (temperatura na entrada da serpentina 1), TI0211 (temperatura na saída da serpentina 1) e TI0212 (temperatura na saída da serpentina 2). A primeira não tem sentido físico, porque está localizada após a clivagem. A segunda é a própria PC2. A terceira, a quarta e a quinta variável estão correlacionadas entre si.
+
+A influência em PC2 e as suas correlações têm sentido físico, porque se encontram na mesma região da planta de produção de anidrido acético: nos reatores.
