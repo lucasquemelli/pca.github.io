@@ -107,3 +107,9 @@ Pela gráfico acima, é difícil a visualização de quais as variáveis que mai
 As variáveis que mais influenciam PC2 são TC0508 (temperatura na saída do trocador 1), FI0446 (PC2), TI0210 (temperatura na entrada da serpentina 1), TI0211 (temperatura na saída da serpentina 1) e TI0212 (temperatura na saída da serpentina 2). A primeira não tem sentido físico, porque está localizada após a clivagem. A segunda é a própria PC2. A terceira, a quarta e a quinta variável estão correlacionadas entre si.
 
 A influência em PC2 e as suas correlações têm sentido físico, porque se encontram na mesma região da planta de produção de anidrido acético: nos reatores.
+
+# Utilização de matriz covariância para a análise PCA
+
+A utilização desta matriz não é adequada porque não apresenta os dados padronizados. Esta matriz mostra a influência dos dados de maior valor absoluto. Sendo, portanto, mais adequado utilizar a matriz de correlação quando se faz análises de dados com dimensões diferentes, tais como temperatura, vazão e pressão. 
+
+Entretanto, a fim de comparação, foram identificados 2 componentes principais: PC1 – TI0212 (temperatura na saída da serpentina 2) e PC2 – FC0619 (vazão de anidrido bruto).
