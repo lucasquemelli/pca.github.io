@@ -1,6 +1,14 @@
 # pca.github.io
 Este projeto é a utilização de Análise de Componentes Principais (PCA - Principal Component Analysis) para uma planta química de produção de anidrido acético.
 
+![image](https://user-images.githubusercontent.com/81119854/124506272-a903be00-dda1-11eb-9810-6ee5ce2f508a.png)
+
+![image](https://user-images.githubusercontent.com/81119854/124506335-cafd4080-dda1-11eb-8f84-65fe30279a86.png)
+![image](https://user-images.githubusercontent.com/81119854/124506364-d6506c00-dda1-11eb-9f27-b49551742a81.png)
+![image](https://user-images.githubusercontent.com/81119854/124506383-e10b0100-dda1-11eb-9b4c-ec1643c7ad91.png)
+![image](https://user-images.githubusercontent.com/81119854/124506395-ea946900-dda1-11eb-93da-0088ccfa73cf.png)
+![image](https://user-images.githubusercontent.com/81119854/124506404-f718c180-dda1-11eb-874f-f98f94deee96.png)
+
 # Limpeza de dados e de outliers 6 sigma
 
 Inicialmente, foi feita a limpeza de dados anômalos utilizando Excel. Para a limpeza, foram consideradas as vazões de entrada (ácido acético) e de saída (produto: anidrido acético) a fim de excluir os períodos transientes, os períodos em que a planta não estava em funcionamento e os valores que apresentavam excessivas repetições. 
