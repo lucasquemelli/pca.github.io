@@ -38,3 +38,8 @@ Em seguida, foi inserido um novo DataFrame de nome pca, excluindo a coluna 1 (de
 Para a primeira análise, utilizou-se o comando TRUE - que corresponde à matriz de correlação. Os comandos podem ser vistos abaixo:
 
 ![image](https://user-images.githubusercontent.com/81119854/124502770-73a7a200-dd9a-11eb-9d33-8bade61c3602.png)
+
+As variáveis PCA_var e PCA_propvarex foram inseridas para serem utilizadas na construção dos gráficos de distribuição para definição do número de componentes principais. Os comandos dos gráficos de distribuição podem ser vistos abaixo:
+
+![image](https://user-images.githubusercontent.com/81119854/124502930-cf722b00-dd9a-11eb-90a4-a31a00ef11b1.png)
+
